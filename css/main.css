@@ -1,0 +1,350 @@
+.header {
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+
+.half-hight {
+    transform: translateY(-40%);
+}
+
+.form-control {
+    padding: 18px 50px 18px 20px;
+
+    border-radius: 30px;
+
+    color: white;
+}
+
+.form-control::placeholder {
+    color: #595A5D;
+}
+
+.form-control:focus {
+    color: white;
+
+    box-shadow: unset;
+}
+
+.input .btn {
+    --bs-btn-padding-x: 40px;
+    --bs-btn-padding-y: 10px;
+    --bs-btn-border-radius: 30px;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+
+.textarea {
+    --bs-btn-padding-x: 40px;
+    --bs-btn-padding-y: 10px;
+    --bs-btn-border-radius: 30px;
+
+}
+
+/* From Uiverse.io by zanina-yassine */   
+  .cloud {
+    width: 250px;
+  }
+  
+  .front {
+    padding-top: 45px;
+    margin-left: 25px;
+    display: inline;
+    position: absolute;
+    z-index: 11;
+    animation: clouds 8s infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  .back {
+    margin-top: -30px;
+    margin-left: 150px;
+    z-index: 12;
+    animation: clouds 12s infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  .right-front {
+    width: 45px;
+    height: 45px;
+    border-radius: 50% 50% 50% 0%;
+    background-color: #4c9beb;
+    display: inline-block;
+    margin-left: -25px;
+    z-index: 5;
+  }
+  
+  .left-front {
+    width: 65px;
+    height: 65px;
+    border-radius: 50% 50% 0% 50%;
+    background-color: #4c9beb;
+    display: inline-block;
+    z-index: 5;
+  }
+  
+  .right-back {
+    width: 50px;
+    height: 50px;
+    border-radius: 50% 50% 50% 0%;
+    background-color: #4c9beb;
+    display: inline-block;
+    margin-left: -20px;
+    z-index: 5;
+  }
+  
+  .left-back {
+    width: 30px;
+    height: 30px;
+    border-radius: 50% 50% 0% 50%;
+    background-color: #4c9beb;
+    display: inline-block;
+    z-index: 5;
+  }
+  
+  .sun {
+    width: 120px;
+    height: 120px;
+    background: -webkit-linear-gradient(to right, #fcbb04, #fffc00);
+    background: linear-gradient(to right, #fcbb04, #fffc00);
+    border-radius: 60px;
+    display: inline;
+    position: absolute;
+  }
+  
+  .sunshine {
+    animation: sunshines 2s infinite;
+  }
+  
+  @keyframes sunshines {
+    0% {
+      transform: scale(1);
+      opacity: 0.6;
+    }
+  
+    100% {
+      transform: scale(1.4);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes clouds {
+    0% {
+      transform: translateX(15px);
+    }
+  
+    50% {
+      transform: translateX(0px);
+    }
+  
+    100% {
+      transform: translateX(15px);
+    }
+  }
+  
+
+.degree {
+    font-weight: 900px;
+}
+
+.row {
+    right: 20%;
+    padding: 50px;
+    top: 40%;
+}
+
+.icone {
+    width: 50px;
+    height: 50px;
+    border: 1px solid slategrey;
+    background-color: #595A5D;
+    border-radius: 30px;
+
+}
+
+:hover.icone {
+    width: 50px;
+    height: 50px;
+    border: 1px solid slategrey;
+    background-color: blue;
+    border-radius: 30px;
+
+}
+
+.iconee {
+    width: 50px;
+    height: 50px;
+    border: 1px solid slategrey;
+    background-color: #595A5D;
+    border-radius: 30px;
+
+}
+
+:hover.iconee {
+    width: 50px;
+    height: 50px;
+    border: 1px solid slategrey;
+    background-color: blue;
+    border-radius: 30px;
+
+}
+
+.iconeee {
+    width: 50px;
+    height: 50px;
+    border: 1px solid slategrey;
+    background-color: #595A5D;
+    border-radius: 30px;
+
+}
+
+:hover.iconeee {
+    width: 50px;
+    height: 50px;
+    border: 1px solid slategrey;
+    background-color: blue;
+    border-radius: 30px;
+
+}
+
+.iconeeee {
+    width: 50px;
+    height: 50px;
+    border: 1px solid slategrey;
+    background-color: #595A5D;
+    border-radius: 30px;
+
+}
+
+:hover.iconeeee {
+    width: 50px;
+    height: 50px;
+    border: 1px solid slategrey;
+    background-color: blue;
+    border-radius: 30px;
+
+}
+
+:hover.text-r {
+    border: 3px solid blue;
+
+}
+
+.hom {
+    border-radius: 30px;
+    background-color: white;
+    padding: 5px;
+
+}
+
+#weather {
+    transform: translateY(-25%);
+}
+
+.location,
+.span-current-forecast,
+.day,
+.date,
+.night-degree {
+
+    color: #bfc1c8;
+}
+
+.location {
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.current-degree {
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.custom {
+    font-size: 14px;
+    color: #009ad8;
+}
+
+
+.current-forecast-icon img {
+    height: 90px;
+    width: 90px;
+}
+
+.forecast-icon img {
+    height: 50px;
+    width: 50px;
+}
+
+.degree {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.custom {
+    font-size: 14px;
+    margin-block: 20px;
+}
+
+.forecast-header,
+.current-forecast-header {
+    padding: 10px;
+    height: 10%;
+    background-color: #0004;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.forecast-contect,
+.current-forecast-content {
+    height: 90%;
+    width: 100%;
+}
+
+.forecast,
+.current-forecast {
+    height: 65vh;
+    width: 33.3%;
+}
+
+.forecast-contect {
+    padding: 50px 20px 10px;
+}
+
+.current-forecast-content {
+    padding: 30px 20px;
+}
+
+.bg-forecast2 {
+    background-color: #262936;
+}
+
+.bg-forecast1 {
+    background-color: #323544;
+}
+
+@media (max-width:640px) {
+
+    .forecast,
+    .current-forecast {
+        margin-block: 15px;
+        height: 60vh;
+        width: 100%;
+    }
+
+    .forecast {
+        height: 35vh;
+    }
+
+    #weather {
+        transform: translateY(-10%);
+    }
+}
+
+@media (max-width:640px) {
+    .half-hight {
+        transform: translateY(0);
+    }
+}
